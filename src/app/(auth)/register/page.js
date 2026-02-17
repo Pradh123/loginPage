@@ -1,12 +1,12 @@
 "use client";
-
 import { useState } from "react";
 import Link from "next/link";
-
 export default function Register() {
   const [role, setRole] = useState("Founder");
 
   return (
+      <div className="flex flex-col gap-6">
+      <h1 className="text-[#4F46E5] text-[18px] font-semibold px-4">RAZESEED</h1>
     <div className="bg-white rounded-xl shadow-sm p-8 w-[420px]">
 
       {/* Heading */}
@@ -48,7 +48,7 @@ export default function Register() {
       </div>
 
       {/* Form */}
-      <form className="mt-6 space-y-4">
+      <form className="mt-6 space-y-4 max-h-[210px] overflow-y-auto thin-scrollbar">
 
         {/* Signup As */}
         <div>
@@ -124,6 +124,7 @@ export default function Register() {
           Login
         </Link>
       </p>
+    </div>
     </div>
   );
 }
