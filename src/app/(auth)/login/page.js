@@ -9,8 +9,8 @@ export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="flex flex-col gap-6 mx-4">
-      <h1 className="text-[#4F46E5] text-[18px] font-semibold">RAZESEED</h1>
+    <div className="flex flex-col gap-6 mx-10">
+      <h1 className="text-[#4F46E5] text-[18px] font-semibold mx-4 md:mx-0">RAZESEED</h1>
     <div className="bg-white rounded-xl shadow-sm p-8 w-[420px]">
 
       {/* Heading */}
