@@ -120,7 +120,7 @@ export default function Register() {
       {/* Footer */}
       <p className="text-sm text-center text-gray-600 mt-6">
         Already have an account?{" "}
-        <Link href="/login" className="text-indigo-600 font-medium">
+        <Link href="/login" className="text-indigo-600 font-medium underline underline-offset-4 decoration-2">
           Login
         </Link>
       </p>
