@@ -13,14 +13,14 @@ const roboto = Roboto({
 
 export default function AuthLayout({ children }) {
   return (
-    <div className="min-h-screen w-full bg-[#F3F4F6] flex flex-col lg:flex-row">
+    <div className="min-h-screen w-full bg-[#F7F9FB] flex flex-col lg:flex-row">
 
       {/* LEFT SIDE */}
       <div className="w-full lg:w-1/2 flex items-center justify-center 
                       px-6 sm:px-10 md:px-16 lg:px-20 xl:px-28 py-10">
-        <div className="w-full max-w-[480px]">
+
           {children}
-        </div>
+    
       </div>
 
       {/* RIGHT SIDE */}
@@ -66,7 +66,7 @@ export default function AuthLayout({ children }) {
         {/* IMAGE SECTION */}
         <div className="relative w-full 
                         h-[360px] md:h-[420px] 
-                        lg:h-[480px] xl:h-[560px] 2xl:h-[620px]">
+                        lg:h-[480px] xl:h-[660px] 2xl:h-[1024px]">
 
           <Image
             src="/login.png"
