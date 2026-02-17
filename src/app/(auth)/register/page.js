@@ -6,7 +6,7 @@ export default function Register() {
 
   return (
       <div className="flex flex-col gap-6">
-      <h1 className="text-[#4F46E5] text-[18px] font-semibold mx-4 md:mx-0">RAZESEED</h1>
+      <h1 className="text-[#4F46E5] text-[18px] font-semibold mx-8 md:mx-0">RAZESEED</h1>
     <div className="bg-white rounded-xl shadow-sm p-8 w-[420px]">
 
       {/* Heading */}
